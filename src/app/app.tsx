@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import React from 'react';
 import NxWelcome from './nx-welcome';
 
 const StyledApp = styled.div`
