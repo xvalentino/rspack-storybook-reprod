@@ -29,6 +29,19 @@
         }
       }
     },
+    "storybook": {
+      "executor": "@nx/storybook:storybook",
+      "options": {
+        "host": "0.0.0.0",
+        "port": 6006,
+        "configDir": ".storybook"
+      },
+      "configurations": {
+        "rde": {
+          "port": 6200
+        }
+      }
+    },
     "serve": {
       "executor": "@nx/rspack:dev-server",
       "options": {
